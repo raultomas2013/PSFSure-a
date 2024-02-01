@@ -1,0 +1,74 @@
+.contenedor__contacto{
+   width: 100%;
+    display: flex;
+    border: none;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #393D3E;
+    padding: 1rem;
+    flex-wrap: wrap;
+
+    
+}
+
+.imagen__contacto{
+    background-color: white;
+
+
+
+
+
+
+
+}
+
+.informacion__contacto{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #393D3E;
+    padding-right: 10%;
+    flex-wrap: wrap;
+}
+.titulos__contacto{
+    color: white;
+    padding: 1rem;
+}
+.mensaje{
+    color: white;
+    width: 100%;
+    
+}
+.boton{
+    width: 29%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.boton:hover{
+    color: #ffffff;
+  font-weight: bold;
+  background-color: rgb(0, 0, 0);
+  translate:0 7px  ;
+}
+
+.seccion__informacion{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cajita__comentarios{
+    width: 91%;
+    position: relative;
+    margin-left: 1rem;
+   
+}
+.imagen__contenedor1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    margin-bottom: 0;
+    
+    
+    
+
+}

@@ -1,0 +1,72 @@
+.informaciones{
+    display: flex;
+    background-color: rgb(37, 38, 40);
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+}
+.footer__Informaciones{
+    color: white;
+    display: flex;
+    width:80%;
+    align-items: top;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.footer__Informacion{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1,8rem;
+}
+
+.Informacion__texto{
+    align-content: center;
+
+}
+
+.Informacion__titulo{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.informacion__descripcion{
+    font-weight: 200;
+}
+.Informacion__imagen{
+    height: 50px;
+
+}
+
+.Informacion__Pagos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1,8rem;
+    margin-top: 1rem;
+}
+
+.Informacion__imagen{
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.informacion__descripcion :hover{
+    font-size: 20px;
+    color: rgb(75, 80, 229);
+}
+
+.informacion__des{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+.Informacion__redes{
+    height: 75px;
+    padding-bottom: 2rem;
+}

@@ -1,0 +1,95 @@
+.nosotros{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/PSFSureña/img/portada-4nosotros.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+.nosotros__contenidos{
+
+    display: flex;
+    align-items: top;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.nosotros__contenido{   
+    width: 30%;
+    align-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.nosotros__imagen{
+    width: 100%;
+    display: flex;
+}
+.nosotros__titulo{
+    font-size: 70px;
+    font-weight: 800;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.20);
+}
+.nosotros__descripcion{
+    height: 50%;
+    color: black;
+    margin: 20px 0;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.20);
+
+}
+.nosotros__texto{
+    font-size: 15px;
+    margin-top: 0.5rem;
+    font-weight: 700;
+    color: black;
+}
+.nosotros__logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nosotros__boton{
+    height: 55px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.35);
+    margin-left: 12rem;
+}
+.nosotros__boton:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.titulo{
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 30px;
+
+
+}
+.estrellas{
+    background-color: #D9D9D9;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 0;
+    padding: 3rem;
+    
+    flex-wrap: wrap;
+}
+.contenido__estrellas{
+    padding-right: 10rem;
+    padding-top: 0;
+    margin: 0 auto;
+    width: auto;
+}
+.fondo__estrellas{
+background-color: #D9D9D9;
+}

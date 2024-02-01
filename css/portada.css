@@ -1,0 +1,32 @@
+.portada{
+    display: flex;
+    background-image: url(/PSFSureña/img/portada-2oficial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    min-width: 480px;
+
+}
+.portada__contenido{
+    
+    
+}
+.portada__titulo{
+    display: flex;
+    padding-left: 100px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+.portada__imagen{
+    height: 100px;
+    width: auto;
+}
+.portada__descripcion{
+    color: rgb(253, 179, 56);
+    font-size: 20px;
+    line-height: 55px;
+    font-weight: 300;
+}

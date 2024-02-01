@@ -1,0 +1,54 @@
+.footer{
+    display: flex;
+    background-color: rgb(37, 38, 40);
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    }
+.footer__contactos{
+    color: white;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.footer__contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1,8rem;
+}
+
+.contacto__texto{
+    align-content: center;
+}
+
+.contacto__titulo{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.contacto__descripcion{
+    font-weight: 200;
+}
+.contacto__imagen{
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.contacto__boton{
+    background-color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 15px  ;
+    color: rgb(15, 27, 56);
+    padding: 0.8rem 2rem;
+    font-weight: 600;
+    box-shadow: 5px 5px;
+}
+.contacto__boton :hover{
+    background-color: rgb(75, 80, 229);
+}
